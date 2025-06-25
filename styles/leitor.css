@@ -188,3 +188,9 @@ tbody th, tbody td{
 .id-livro{
     color:var(--cor-laranja) !important;
 }
+
+#meus-emprestimos{
+    display: none;
+}
+
+
