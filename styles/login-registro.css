@@ -1,0 +1,65 @@
+.auth-container {
+    display: flex;
+    height: 100vh;
+}
+
+.banner-section {
+    flex: 1;
+    background-color: var(--cor-preta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-branca);
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner-section img {
+    max-width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo-section h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo-section p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-section {
+    flex: 1;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section h2 {
+    margin-bottom: 2rem;
+    color: var(--cor-preta);
+}
+
+.form-control {
+    font-size: 1.2rem;
+}
+
+.btn-custom {
+    background-color: var(--cor-laranja);
+    color: var(--cor-branca);
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #FFCA76 !important;
+}
+
+.login-form{
+    width: 60%;
+    border: .1rem solid var(--cor-cinza);
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+}
